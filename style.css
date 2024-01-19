@@ -1,0 +1,126 @@
+body {
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+h1 img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(20, 148, 118);
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container img {
+    min-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(20, 148, 118);
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: black;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    font-size: 0.5rem
+}
+
+.box {
+    background-color:rgb(20, 148, 118);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    align-self: stretch;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.top-left {
+    position: relative;
+    top: 20%;
+    margin-left: auto;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: 15%;
+    left: 15px;
+}
+
+.advert img {
+    border-radius: 5px;
+    min-height: 150px;
+}
+
+.advert-text {
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    bottom: 25%;
+    left: 15px;
+}
